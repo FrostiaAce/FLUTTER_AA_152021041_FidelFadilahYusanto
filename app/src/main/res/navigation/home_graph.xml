@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_graph"
+    app:startDestination="@id/moviesFragmentGraph">
+
+    <fragment
+        android:id="@+id/moviesFragmentGraph"
+        android:name="com.miftah.moviecatalog.ui.home.MoviesFragment"
+        android:label="fragment_movies"
+        tools:layout="@layout/fragment_movies" >
+        <action
+            android:id="@+id/action_moviesFragmentGraph_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountFragmentGraph"
+        android:name="com.miftah.moviecatalog.ui.home.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/bookmarkFragmentGraph"
+        android:name="com.miftah.moviecatalog.ui.home.BookmarkFragment"
+        android:label="fragment_bookmark"
+        tools:layout="@layout/fragment_bookmark" >
+        <action
+            android:id="@+id/action_bookmarkFragmentGraph_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.miftah.moviecatalog.ui.home.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="imdbId"
+            app:argType="string"
+            android:defaultValue='""' />
+        <argument
+            android:name="posterUrl"
+            app:argType="string"
+            android:defaultValue='""' />
+        <argument
+            android:name="year"
+            app:argType="string"
+            android:defaultValue='""' />
+    </fragment>
+</navigation>

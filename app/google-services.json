@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "787658703286",
+    "firebase_url": "https://movielog-12-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "movielog-12",
+    "storage_bucket": "movielog-12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787658703286:android:c5d2fa2d836881fb534117",
+        "android_client_info": {
+          "package_name": "com.miftah.moviecatalog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787658703286-sj1n7fvjh8ei3e5eocg754mp4daf27or.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.miftah.moviecatalog",
+            "certificate_hash": "be0cf6d6fbfe704e4fc2abc78b9b8f1c919dda3c"
+          }
+        },
+        {
+          "client_id": "787658703286-bdo22q7fu1f7mh6q32pf0kgl26enj839.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa_qbVrd70mEQe0Hr5kr4Ee_45OffUG3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787658703286-bdo22q7fu1f7mh6q32pf0kgl26enj839.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
